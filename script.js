@@ -24,16 +24,6 @@ let playRound = (playerSelection, computerSelection) => {
     }
 }
 
-// let check = 'Y'
-// while (check !== 'N') {
-//     alert(playRPS(prompt('Enter your RPS choice: '), computerPlay()));
-//     check = prompt('Play again? Y/N')
-//     while(['Y', 'N'].includes(check) === false) {
-//         alert('Invalid selection. Please try again.');
-//         check = prompt('Play again? Y/N')
-//     }
-// }
-
 let game = () => {
     let result;
     let playerWins = 0;
